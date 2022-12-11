@@ -20,12 +20,16 @@ struct ContentView: View {
                     PhoneAccessories()
                 } label: {
                     Text("Phone Accessories")
+                        //.font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     ComputerAccessories()
                 } label: {
                     Text("Computer Accessories")
+                     //   .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
@@ -33,6 +37,8 @@ struct ContentView: View {
                     Monitiors()
                 } label: {
                     Text("Monitors")
+                       // .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
@@ -40,12 +46,16 @@ struct ContentView: View {
                     Computers()
                 } label: {
                     Text("Computers")
+                      //  .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     iPadAndAccessories()
                 } label: {
                     Text("iPad and Accessories")
+                      //  .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
@@ -53,38 +63,43 @@ struct ContentView: View {
                     APPLHomeAccessories()
                 } label: {
                     Text("Apple Home Accessories")
+                     //   .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     OtherAccessories()
                 } label: {
                     Text("Other Accessories")
+                      //  .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     Phones()
                 } label: {
                     Text("Phones")
+                      //  .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     GiftCards()
                 } label: {
                     Text("Giftcards")
+                       // .font(.title3)
+                        .bold()
                 }
                 
                 NavigationLink {
                     TVS()
                 } label: {
                     Text("TVs")
+                      //  .font(.title3)
+                        .bold()
                 }
              }
-            
-            
-
-            
-            
-            
+            .navigationTitle("")
 
         }
     
